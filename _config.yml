@@ -1,0 +1,78 @@
+title: Brain Bugs
+description: Spot the Bugs in How We Think.
+url: ""
+baseurl: ""
+lang: en
+timezone: America/Los_Angeles
+
+plugins:
+- jekyll-redirect-from
+
+collections:
+  bb_topics:
+    output: true
+    permalink: /topics/:name/
+  bb_errors:
+    output: true
+    permalink: /errors/:name/
+  bb_compare:
+    output: true
+    permalink: /compare/:name/
+  bb_practice:
+    output: true
+    permalink: /practice/quizzes/:name/
+  bb_stories:
+    output: true
+    permalink: /stories/:name/
+
+defaults:
+- scope:
+    path: ""
+    type: bb_topics
+  values:
+    layout: bb-category
+    no_toc: true
+- scope:
+    path: ""
+    type: bb_errors
+  values:
+    layout: bb-error
+    no_toc: true
+- scope:
+    path: ""
+    type: bb_compare
+  values:
+    layout: bb-compare
+    no_toc: true
+- scope:
+    path: ""
+    type: bb_practice
+  values:
+    layout: bb-practice
+    no_toc: true
+- scope:
+    path: ""
+    type: bb_stories
+  values:
+    layout: bb-story
+    no_toc: true
+
+sass:
+  style: compressed
+
+exclude:
+- .bundle/
+- .github/
+- .jekyll-cache/
+- .sass-cache/
+- Gemfile
+- Gemfile.lock
+- Makefile - notes/
+- node_modules/
+- package-lock.json
+- package.json
+- playwright.config.ts
+- README.md
+- tests/
+- tmp/
+- vendor/

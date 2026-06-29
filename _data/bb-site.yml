@@ -1,0 +1,95 @@
+brand: Brain Bugs
+tagline: Spot the Bugs in How We Think
+hero_title: Spot the Bugs in Bad Reasoning Before They Steer You Wrong.
+hero_summary: Brain Bugs teaches thinking traps in plain English, with simple examples from class, work, stories, and daily life.
+hero_pills:
+- Logical Fallacies
+- Brain Shortcuts
+- Persuasion Tricks
+- Number Mistakes
+- Decision Traps
+hero_panels:
+- label: Learn Fast
+  title: See the Pattern
+  summary: Start with a short definition, then jump into a scene that sounds like real life.
+- label: Stay Practical
+  title: Know What to Say Next
+  summary: Each lesson ends with warning signs, better responses, and a mini practice check.
+nav:
+- label: Home
+  url: /
+- label: Start Here
+  url: /start-here/
+- label: Topics
+  url: /topics/
+- label: Compare
+  url: /compare/
+- label: Practice
+  url: /practice/
+- label: Stories
+  url: /stories/
+- label: Real Life
+  url: /real-life/
+- label: Glossary
+  url: /glossary/
+- label: About
+  url: /about/
+topic_order:
+- logical-fallacies
+- cognitive-biases
+- heuristics
+- cognitive-distortions
+- rhetorical-manipulation
+- statistical-errors
+- decision-traps
+- social-perception-errors
+- narrative-errors
+- metacognitive-illusions
+home_paths:
+- title: Learn the Basics
+  summary: Start with the biggest differences between a fallacy, a bias, and a shortcut.
+  url: /start-here/
+- title: Browse Topics
+  summary: Jump straight to argument mistakes, decision traps, or number mistakes.
+  url: /topics/
+- title: Practice Spotting Bugs
+  summary: Use quick scenarios with instant feedback.
+  url: /practice/
+- title: See Stories and Real-Life Examples
+  summary: Watch Brain Bugs show up in myths, class debates, meetings, and daily choices.
+  url: /stories/
+quick_comparisons:
+- title: Fallacies vs Biases
+  summary: A fallacy is a mistake in the argument. A bias is a tilt in how the mind judges the facts.
+  url: /compare/fallacies-vs-biases/
+- title: Biases vs Heuristics
+  summary: A bias bends judgment in a direction. A heuristic is a quick rule of thumb that can help or mislead.
+  url: /compare/biases-vs-heuristics/
+- title: Sunk Cost vs Escalation of Commitment
+  summary: Sunk cost is sticking with a bad choice because of past cost. Escalation adds more and more to save face.
+  url: /compare/sunk-cost-vs-escalation-of-commitment/
+- title: Appeal to Emotion vs Loaded Language
+  summary: One uses feeling as proof. The other uses hot wording to frame the issue before proof is tested.
+  url: /compare/appeal-to-emotion-vs-loaded-language/
+- title: Hindsight Bias vs Narrative Fallacy
+  summary: One makes the ending feel obvious after the fact. The other turns messy reality into a neat story.
+  url: /compare/hindsight-bias-vs-narrative-fallacy/
+- title: Base Rate Neglect vs Availability Heuristic
+  summary: One skips the background odds. The other lets a vivid example feel more common than it is.
+  url: /compare/base-rate-neglect-vs-availability-heuristic/
+learning_paths:
+- title: Spot Bad Arguments
+  summary: Learn to catch personal attacks, weak rewrites, false either-or claims, and crowd pressure.
+  topic_url: /topics/logical-fallacies/
+  compare_url: /compare/fallacies-vs-biases/
+  practice_url: /practice/quizzes/five-quick-calls/
+- title: Understand Brain Shortcuts
+  summary: Notice how the mind grabs the most comfortable, familiar, or recent answer.
+  topic_url: /topics/heuristics/
+  compare_url: /compare/biases-vs-heuristics/
+  practice_url: /practice/quizzes/messy-stories-and-numbers/
+- title: Make Better Decisions
+  summary: Slow down when cost, stress, and overload start steering the choice.
+  topic_url: /topics/decision-traps/
+  compare_url: /compare/sunk-cost-vs-escalation-of-commitment/
+  practice_url: /practice/scenario-lab/

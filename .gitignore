@@ -1,0 +1,15 @@
+.bundle/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+_site/
+node_modules/
+reports/
+test-results/
+tmp/
+vendor/bundle/
+vendor/cache/
+vendor/ruby/
+
+.DS_Store
+Thumbs.db
